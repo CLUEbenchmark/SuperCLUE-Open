@@ -3,7 +3,7 @@
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
 
-## SuperCLUE榜单(Open,Opt,LYB)
+## SuperCLUE榜单(Open开放域多轮-Opt封闭域-LYB匿名对战)
 
 SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
 
@@ -35,7 +35,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 ### SuperCLUE开放域多轮基准与封闭域基准相关性
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_vs_opt.png"  width="65%" height="65%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_vs_opt.png"  width="70%" height="70%"></img>
 
 从相关性分析中可以看到，SuperCLUE-open与SuperCLUE-opt具有较高的一致性（Pearson/Spearman相关性系数0.78--0.82）
 
