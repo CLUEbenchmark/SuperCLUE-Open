@@ -66,7 +66,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 <span style="font-size: 0.8em;">
 
-| 模型 | 胜和率 | <span style="font-size: 0.8em;">语义理解与抽取 </span> | 闲聊 | <span style="font-size: 0.8em;">上下文对话</span> | 角色扮演 | <span style="font-size: 0.8em;">知识与百科</span> | <span style="font-size: 0.8em;">生成与创作</span> | 代码 | <span style="font-size: 0.8em;">逻辑与推理</span> | 计算 | 安全 |
+| 模型 | 胜和率 | <span style="font-size: 0.4em;">语义理解与抽取 </span> | 闲聊 | <span style="font-size: 0.4em;">上下文对话</span> | 角色扮演 | <span style="font-size: 0.4em;">知识与百科</span> | <span style="font-size: 0.4em;">生成与创作</span> | 代码 | <span style="font-size: 0.4em;">逻辑与推理</span> | 计算 | 安全 |
 |:----:|:-----:|:-------:|:----:|:--------:|:------:|:--------:|:--------:|:----:|:--------:|:----:|:----:|
 | GPT-4 | 94.64 | 80.00 | 97.30 | 93.18 | 100.00 | 87.76 | 100.00 | 97.92 | 100.00 | 100.00 | 95.12 |
 | Claude-instant-v1 | 69.51 | 64.29 | 92.31 | 68.52 | 83.02 | 51.79 | 51.06 | 54.00 | 59.57 | 80.00 | 86.79 |
