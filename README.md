@@ -3,7 +3,9 @@
 
 ## SuperCLUE榜单
 
-|      model      | SuperCLUE-open（多轮开放域） | SuperCLUE-opt（客观题） | SuperCLUE-lyb（匿名对战） |   许可证   |
+SuperCLUE-open：开放域多轮交互；SuperCLUE-opt：三大能力，客观题；SuperCLUE-lyb：开放域众包匿名对战
+
+|      model      | SuperCLUE-open  | SuperCLUE-opt  | SuperCLUE-lyb  |   许可证   |
 |:---------------:|:--------------:|:-------------:|:------------:|:---------:|
 |     gpt-4       |     94.64      |     78.76     |          -      |  专有服务  |
 | gpt-3.5-turbo   |     66.67      |     67.98     |          1171     |  专有服务  |
@@ -21,7 +23,7 @@
 |  baichuan-7B（预训练模型）    |      3.11      |     48.18     |            -      | 开源，商用申请|
 
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-open</a>，
-客观题形式的三大能力<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-opt</a>--基准能力、中文特性和专业能力，
+客观题形式的三大能力<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-opt</a>（基础能力、中文特性和专业能力），
 众包匿名对战形式的<a href='https://www.SuperCLUEAi.com'>琅琊榜</a>
 
 
