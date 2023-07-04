@@ -84,7 +84,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 #### 多轮对话能力
 
 #### 大型语言模型法官的可解释性
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="70%" height="70%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_example.jpeg"  width="70%" height="70%"></img>
 
 
 ## 如何在SuperCLUE-Auto上评估新的模型
