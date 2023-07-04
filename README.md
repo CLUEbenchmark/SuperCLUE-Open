@@ -1,5 +1,5 @@
 # SuperCLUE-open
-中文通用大模型开放域测评基准 | An Open Domain Benchmark for Foundation Models  in Chinese
+中文通用大模型开放域多轮测评基准 | An Multi-turn Open Domain Benchmark for Foundation Models  in Chinese
 
 ## SuperCLUE榜单
 
@@ -36,22 +36,22 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 ### 如何对中文大模型进行评分
 这里写评分过程和问题，一致性
 
-### 结果与分析
-#### 有效区分中文大模型
+## 结果与分析
+#### 有效区分行的中文大模型
 
 #### 多轮对话能力
 
 #### 大型语言模型法官的可解释性
 这里加一个示例（是否是新的？）
 
-#### 如何在SuperCLUE-Auto上评估新的模型
+## 如何在SuperCLUE-Auto上评估新的模型
 链接或办法
 
-#### 下一步
+## 下一步
 
-#### 相关工作
+## 相关工作
 
-#### 链接
+## 链接
 
 
 
