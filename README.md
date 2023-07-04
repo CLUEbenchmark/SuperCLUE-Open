@@ -76,6 +76,8 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 里面包括一些常用的使用场景和一些挑战性的指令用于区分不同的模型。它考察模型的十大能力，
 包括：语义理解与抽取，闲聊，上下文对话，角色扮演，知识与百科，生成与创作，代码，逻辑与推理，计算，代码和安全。每个子能力六十道题目，每个题目包括两轮问题。
 
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_examples.jpeg"  width="70%" height="70%"></img>
+
 ### 如何对中文大模型进行评分
 这里写评分过程和问题，一致性
 
