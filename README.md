@@ -1,11 +1,13 @@
 # SuperCLUE-open
 中文通用大模型开放域多轮测评基准 | An Multi-turn Open Domain Benchmark for Foundation Models  in Chinese
 
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/score_10_circle.jpg"  width="90%" height="90%"></img>
+
 ## SuperCLUE榜单
 
-SuperCLUE-open：开放域多轮交互；SuperCLUE-opt：三大能力，客观题；SuperCLUE-lyb：开放域众包匿名对战
+SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
 
-|      Model      | SuperCLUE-open  | SuperCLUE-opt  | SuperCLUE-lyb  |   许可证   |
+|      Model      | SuperCLUE-Open  | SuperCLUE-Opt  | SuperCLUE-LYB  |   许可证   |
 |:---------------:|:--------------:|:-------------:|:------------:|:---------:|
 |     gpt-4       |     94.64      |     78.76     |          -      |  专有服务  |
 | gpt-3.5-turbo   |     66.67      |     67.98     |          1171     |  专有服务  |
@@ -22,9 +24,9 @@ SuperCLUE-open：开放域多轮交互；SuperCLUE-opt：三大能力，客观�
 |  RWKV-world-7B  |     24.54      |     24.83     |           811     | 开源，可商用|
 |  baichuan-7B（预训练模型）    |      3.11      |     48.18     |            -      | 开源，商用申请|
 
-SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-open</a>；
-客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-opt</a>（基础能力、中文特性和专业能力）；
-众包匿名对战形式基准琅琊榜，<a href='https://www.SuperCLUEAi.com'>SuperCLUE-lyb</a>
+SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
+客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>（基础能力、中文特性和专业能力）；
+众包匿名对战形式基准琅琊榜，<a href='https://www.SuperCLUEAi.com'>SuperCLUE-LYB</a>
 
 
 以下是根据给定的Excel表格内容生成的Markdown表格（内容居中显示）：
