@@ -3,13 +3,13 @@
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
 
-## SuperCLUE榜单
+## SuperCLUE榜单(Open,Opt,LYB)
 
 SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
 
 <span style="font-size: 0.8em;">
 
-|      Model      |机构| SuperCLUE-Open  | SuperCLUE-Opt  | SuperCLUE-LYB  |   许可证   |
+|      Model      |机构| Open开放域  | Opt封闭域  | LYB匿名对战  |   许可证   |
 |:---------------:|:--------------:|:--------------:|:-------------:|:------------:|:---------:|
 |     <a href='https://openai.com/'>GPT-4</a>    | OpenAI  |     94.64      |     78.76     |          -      |  专有服务  |
 | <a href='https://www.anthropic.com/'>Claude-instant-v1 </a> |Authropic |    69.51     |     60.38     |          1215     |  专有服务  |
