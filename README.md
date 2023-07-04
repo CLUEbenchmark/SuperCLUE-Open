@@ -7,6 +7,8 @@
 
 SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
 
+<span style="font-size: 0.8em;">
+
 |      Model      |机构| SuperCLUE-Open  | SuperCLUE-Opt  | SuperCLUE-LYB  |   许可证   |
 |:---------------:|:--------------:|:--------------:|:-------------:|:------------:|:---------:|
 |     <a href='https://openai.com/'>GPT-4</a>    | OpenAI  |     94.64      |     78.76     |          -      |  专有服务  |
@@ -25,7 +27,8 @@ SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观�
 | <a href='https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b'>phoenix-7B</a>|  香港中文大学|     -  | 43.60	| 1100  | 开源，可商用|
 |  <a href='https://github.com/lm-sys/FastChat'>Vicuna-13B</a> |UC伯克利 |     -  |  29.15	| 994	 |  开源，非商用|
 |  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            -      | 开源，商用申请|
-
+ 
+ </span>
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
 客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>（基础能力、中文特性和专业能力）；
 众包匿名对战形式基准琅琊榜，<a href='https://www.SuperCLUEAi.com'>SuperCLUE-LYB</a>
