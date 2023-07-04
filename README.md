@@ -128,7 +128,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_example.jpeg"  width="115%" height="115%"></img>
 
 
-## 如何在SuperCLUE-Auto上评估新的模型
+## 如何在SuperCLUE-Open上评估新的模型
 
 1.SuperCLUE榜单大模型评测申请：https://wj.qq.com/s2/12305633/a73d/
 
@@ -136,6 +136,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 2.机构内部测评需求收集：https://wj.qq.com/s2/12307825/2ae0/
 
+模型详情或需求描述中，请注明：“SuperCLUE-Open”
 
 ## 下一步
 1. 添加SuperCLUE-open与人类测评的一致性分析
