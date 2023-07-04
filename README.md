@@ -24,9 +24,9 @@ SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观�
 |    <a href='https://github.com/OpenLMLab/MOSS'>MOSS-16B</a>   | 复旦 |     21.14      |     38.56     |           1049     | 开源-商用申请|
 | <a href='https://github.com/LianjiaTech/BELLE'>BELLE-13B</a>  | 链家|     15.61      |     50.65     |           958     | 开源-非商用|
 |  <a href='https://huggingface.co/spaces/BlinkDL/RWKV-World-7B'>RWKV-world-7B</a>| RWKV基金会|     24.54      |     24.83     |           811     | 开源-可商用|
+|  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            -      | 开源-商用申请|
 | <a href='https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b'>phoenix-7B</a>|  香港中文大学|     -  | 43.60	| 1100  | 开源-可商用|
 |  <a href='https://github.com/lm-sys/FastChat'>Vicuna-13B</a> |UC伯克利 |     -  |  29.15	| 994	 |  开源-非商用|
-|  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            -      | 开源-商用申请|
  
  </span>
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
@@ -65,6 +65,8 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 ### SuperCLUE-Open十大能力表
 
+<span style="font-size: 0.8em;">
+
 | 模型 | 胜和率 | 语义理解 | 闲聊 | 上下文对话 | 角色扮演 | 知识与百科 | 生成与创作 | 代码 | 逻辑与推理 | 计算 | 安全 |
 |:----:|:-----:|:-------:|:----:|:--------:|:------:|:--------:|:--------:|:----:|:--------:|:----:|:----:|
 | GPT-4 | 94.64 | 80.00 | 97.30 | 93.18 | 100.00 | 87.76 | 100.00 | 97.92 | 100.00 | 100.00 | 95.12 |
@@ -82,7 +84,8 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 | RWKV-world-7B | 12.45 | 10.64 | 8.47 | 12.96 | 7.27 | 11.86 | 10.20 | 25.00 | 18.00 | 12.28 | 8.93 |
 | baichuan-7B（预训练模型） | 3.11 | 1.89 | 0.00 | 0.00 | 0.00 | 1.72 | 1.69 | 3.33 | 18.33 | 3.33 | 0.00 |
 
-
+ </span>
+ 
 注：胜和率，是模型的胜率加上平局率之和，即(win+tie)/(win+tie+loss)*100。
 
 ## 使用SuperCLUE-Open来评估中文大模型
