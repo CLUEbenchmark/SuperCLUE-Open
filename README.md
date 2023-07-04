@@ -137,7 +137,6 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 2.机构内部测评需求收集：https://wj.qq.com/s2/12307825/2ae0/
 
 
-
 ## 下一步
 1. 添加SuperCLUE-open与人类测评的一致性分析
 2. 扩充测试集规模
@@ -153,7 +152,15 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 4.排行榜 <a href='https://tatsu-lab.github.io/alpaca_eval/'>AlpacaEval Leaderboard</a>
 
+## 致谢
+本基准的成功运行离不开FastChat项目在源代码方面的大力支持，在此十分感谢Large Model Systems Organization(<a href=''>LMSYS ORG</a>)和<a href='https://github.com/lm-sys/FastChat'>FastChat</a>
+
+
+
 ## 链接
 
+1. <a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>： 中文通用大模型综合性基准(基础能力、中文特性和专业能力）
+
+2. <a href='www.superclueai.com'>SuperCLUE琅琊榜</a>：中文通用大模型匿名对战评价基准
 
 
