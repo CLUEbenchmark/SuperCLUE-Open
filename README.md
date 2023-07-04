@@ -22,6 +22,8 @@ SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观�
 |    MOSS-16B     |     21.14      |     38.56     |           1049     | 开源，商用申请|
 |   BELLE-13B     |     15.61      |     50.65     |           958     | 开源，非商用|
 |  RWKV-world-7B  |     24.54      |     24.83     |           811     | 开源，可商用|
+| phoenix-7B  |     -  | 43.60	| 1100  | 开源，可商用|
+| Vicuna-13B  |     -  |  29.15	| 994	 |  开源，非商用|
 |  baichuan-7B（预训练模型）    |      3.11      |     48.18     |            -      | 开源，商用申请|
 
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
@@ -31,7 +33,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 以下是根据给定的Excel表格内容生成的Markdown表格（内容居中显示）：
 
-SuperCLUE-open模型排行榜
+### SuperCLUE-open模型排行榜
 
 |         Model         | Score  | Win | Loss | Tie | Win_rate(%) | Loss_rate(%) |
 |:---------------------:|:------:|:---:|:----:|:---:|:-----------:|:------------:|
