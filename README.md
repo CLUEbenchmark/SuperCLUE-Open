@@ -1,7 +1,7 @@
 # SuperCLUE-open
 中文通用大模型开放域多轮测评基准 | An Multi-turn Open Domain Benchmark for Foundation Models  in Chinese
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/score_10_circle.jpg"  width="90%" height="90%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="90%" height="90%"></img>
 
 ## SuperCLUE榜单
 
