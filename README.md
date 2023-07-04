@@ -61,7 +61,6 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 注：Score分数(即胜和率)，是模型的胜率加上平局率之和，即(win+tie)/(win+tie+loss)*100。
 
-以下是根据给定的Excel表格内容生成的Markdown表格（内容句子显示）：
 
 ### SuperCLUE-Open十大能力表
 
