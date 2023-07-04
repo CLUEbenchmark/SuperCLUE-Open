@@ -35,7 +35,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 当前也刚刚出现一些基准，如加州伯克利的MT-bench, 斯坦福大学的Alpaca-Eval，可以用于评估开放域问题，但是这些基准都是英文。
 中文的代表性闭源和开源模型总体上无法进行有效评估。
 
-为了缓解这个问题，我们发布了SuperCLUE-open与SuperCLUE琅琊榜。
+为了缓解这个问题，我们发布了SuperCLUE-open与SuperCLUE琅琊榜：
 
 SuperCLUE-open：是一个有挑战的多轮对话测试集，用于评估中文大模型对话式和遵循指令的能力。
 
@@ -44,8 +44,6 @@ SuperCLUE-lyb: SuperCLUE琅琊榜是一个众包匿名对战平台，用户问�
 
 ### 什么是SuperCLUE-open
 这里做一些介绍
-
-## SuperCLUE-open与人类的评估的一致性
 
 ### 如何对中文大模型进行评分
 这里写评分过程和问题，一致性
