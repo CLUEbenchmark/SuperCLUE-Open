@@ -1,30 +1,30 @@
 # SuperCLUE-Open
 中文通用大模型开放域多轮测评基准 | An Multi-turn Open Domain Benchmark for Foundation Models  in Chinese
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="70%" height="70%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
 
 ## SuperCLUE榜单
 
 SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
 
-|      Model      | SuperCLUE-Open  | SuperCLUE-Opt  | SuperCLUE-LYB  |   许可证   |
-|:---------------:|:--------------:|:-------------:|:------------:|:---------:|
-|     gpt-4       |     94.64      |     78.76     |          -      |  专有服务  |
-| Claude-instant-v1 |    69.51     |     60.38     |          1215     |  专有服务  |
-| gpt-3.5-turbo   |     66.67      |     67.98     |          1171     |  专有服务  |
-|  MiniMax-abab5  |     57.94      |     58.19     |           1188     |  专有服务  |
-| 文心一言(v2.0.4)  |     50.48      |     62.85     |             -      |  专有服务  |
-| 讯飞星火(v1.5)    |     48.87      |     59.8      |            -      |  专有服务  |
-|  ChatGLM-130B   |     42.46      |     51.53     |          1163     |  专有服务  |
-|  ChatGLM2-6B    |     36.50      |     48.56     |           -      | 开源，商用申请|
-|  360智脑(4.0)    |     23.93      |     63.53     |           -      |  专有服务  |
-| IDEA-姜子牙-13B  |     22.04      |     48.67     |           1010     | 开源，非商用|
-|    MOSS-16B     |     21.14      |     38.56     |           1049     | 开源，商用申请|
-|  BELLE-13B     |     15.61      |     50.65     |           958     | 开源，非商用|
-|  RWKV-world-7B  |     24.54      |     24.83     |           811     | 开源，可商用|
-| phoenix-7B  |     -  | 43.60	| 1100  | 开源，可商用|
-|  Vicuna-13B  |     -  |  29.15	| 994	 |  开源，非商用|
-|  baichuan-7B（预训练模型）    |      3.11      |     48.18     |            -      | 开源，商用申请|
+|      Model      |机构| SuperCLUE-Open  | SuperCLUE-Opt  | SuperCLUE-LYB  |   许可证   |
+|:---------------:|:--------------:|:--------------:|:-------------:|:------------:|:---------:|
+|     <a href='https://openai.com/'>GPT-4</a>    | OpenAI  |     94.64      |     78.76     |          -      |  专有服务  |
+| <a href='https://www.anthropic.com/'>Claude-instant-v1 </a> |Authropic |    69.51     |     60.38     |          1215     |  专有服务  |
+| <a href='https://openai.com/'>gpt-3.5-turbo</a>   | OpenAI  |     66.67      |     67.98     |          1171     |  专有服务  |
+| <a href='https://api.minimax.chat/'>MiniMax-abab5</a> |MiniMax |     57.94      |     58.19     |           1188     |  专有服务  |
+| <a href='https://yiyan.baidu.com/welcome'>文心一言(v2.0.4)</a> | 百度|     50.48      |     62.85     |             -      |  专有服务  |
+| <a href='https://xinghuo.xfyun.cn/'>讯飞星火(v1.5)</a>   |科大讯飞 |     48.87      |     59.8      |            -      |  专有服务  |
+|  <a href='https://chatglm.cn'>ChatGLM-130B</a>  | 清华大学&智谱AI|     42.46      |     51.53     |          1163     |  专有服务  |
+|   <a href='https://github.com/THUDM/ChatGLM2-6B'>ChatGLM2-6B</a> | 清华大学&智谱AI |     36.50      |     48.56     |           -      | 开源，商用申请|
+|  <a href='https://ai.360.cn'>360智脑(4.0)</a>   |360 |     23.93      |     63.53     |           -      |  专有服务  |
+| <a href='https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1.1'>IDEA-姜子牙-13B</a>|深圳IDEA研究院 |     22.04      |     48.67     |           1010     | 开源，非商用|
+|    <a href='https://github.com/OpenLMLab/MOSS'>MOSS-16B</a>   | 复旦大学 |     21.14      |     38.56     |           1049     | 开源，商用申请|
+| <a href='https://github.com/LianjiaTech/BELLE'>BELLE-13B</a>  | 链家|     15.61      |     50.65     |           958     | 开源，非商用|
+|  <a href='https://huggingface.co/spaces/BlinkDL/RWKV-World-7B'>RWKV-world-7B</a>| RWKV基金会|     24.54      |     24.83     |           811     | 开源，可商用|
+| <a href='https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b'>phoenix-7B</a>|  香港中文大学|     -  | 43.60	| 1100  | 开源，可商用|
+|  <a href='https://github.com/lm-sys/FastChat'>Vicuna-13B</a> |UC伯克利 |     -  |  29.15	| 994	 |  开源，非商用|
+|  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            -      | 开源，商用申请|
 
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
 客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>（基础能力、中文特性和专业能力）；
@@ -119,7 +119,7 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 我们对14个模型，针对10项能力，进行了全面的评估。我们的基准可以清晰的区分模型在不同能力上的表现。特别是一些国际专有服务gpt-4, gpt-3.5, Claude，
 相比中开源模型ChatGM2-6B, MOSS-16B有明显的效果差异。
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="70%" height="70%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
 
 
 #### 多轮对话能力
@@ -139,7 +139,7 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 模型详情或需求描述中，请注明：“SuperCLUE-Open”
 
 ## 下一步
-1. 在报告SuperCLUE-Open与SuperCLUE-Opt一致性基础上，进一步添加SuperCLUE-Open与人类测评的一致性分析
+1. 在报告SuperCLUE-Open与SuperCLUE-Opt一致性基础上，添加SuperCLUE-Open与人类测评的一致性分析
 2. 扩充测试集规模
 3. 加入更多中文大模型
 
@@ -174,7 +174,7 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 
 ## 引用
 
-如果使用本项目的，请引用本项目。
+如果使用本项目的，请引用本项目，包括相关的论文或项目。
 
     @misc{SuperCLUE,
       author = {Liang Xu and others from SuperCLUE team},
