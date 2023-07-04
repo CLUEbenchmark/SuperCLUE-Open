@@ -129,9 +129,20 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 
 ## 如何在SuperCLUE-Auto上评估新的模型
-链接或办法
+
+1.SuperCLUE榜单大模型评测申请：https://wj.qq.com/s2/12305633/a73d/
+
+（针对已公开发布、有代表性的模型服务或开源模型）
+
+2.机构内部测评需求收集：https://wj.qq.com/s2/12307825/2ae0/
+
+
 
 ## 下一步
+1. 添加SuperCLUE-open与人类测评的一致性分析
+2. 扩充测试集规模
+3. 加入更多中文大模型
+
 
 ## 相关工作
 1.论文：<a href='https://arxiv.org/abs/2306.05685'>Judging LLM-as-a-judge with MT-Bench and Chatbot Arena</a>
