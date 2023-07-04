@@ -34,6 +34,8 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_vs_opt.png"  width="65%" height="65%"></img>
 
+从相关性分析中可以看到，SuperCLUE-open与SuperCLUE-opt具有较高的一致性（Pearson/Spearman相关性系数0.78--0.82）
+
 
 ### SuperCLUE-open开放域多轮测评基准
 
@@ -90,9 +92,11 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 ## 结果与分析
 #### SuperCLUE-open，有区别性的中文大模型基准
-我们对14个模型，针对10项能力，进行了全面的评估。我们的基准可以清晰的区分去模型在不同能力上的表现。特别是一些国际专有服务gpt-4, gpt-3.5, Claude，
+我们对14个模型，针对10项能力，进行了全面的评估。我们的基准可以清晰的区分模型在不同能力上的表现。特别是一些国际专有服务gpt-4, gpt-3.5, Claude，
 相比中开源模型ChatGM2-6B, MOSS-16B有明显的效果差异。
-并且从相关性分析中可以看到SuperCLUE-open与SuperCLUE-opt具有较高的一致性（Pearson/Spearman相关性系数0.78--0.82）
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="70%" height="70%"></img>
+
 
 #### 多轮对话能力
 
