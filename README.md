@@ -149,7 +149,7 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 
 2.文章：<a href='https://lmsys.org/blog/2023-06-22-leaderboard/'>Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B</a>
 
-3.项目地址：<a href='https://github.com/tatsu-lab/alpaca_eval'>Alpaca_Eval: A validated automatic evaluator for instruction-following language models,cheap and fast</a>
+3.项目地址：<a href='https://github.com/tatsu-lab/alpaca_eval'>Alpaca_Eval: A validated automatic evaluator for instruction-following language models</a>
 
 4.排行榜 <a href='https://tatsu-lab.github.io/alpaca_eval/'>AlpacaEval Leaderboard</a>
 
