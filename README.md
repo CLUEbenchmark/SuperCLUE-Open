@@ -1,4 +1,4 @@
-# SuperCLUE-open
+# SuperCLUE-Open
 中文通用大模型开放域多轮测评基准 | An Multi-turn Open Domain Benchmark for Foundation Models  in Chinese
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="70%" height="70%"></img>
@@ -37,7 +37,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 从相关性分析中可以看到，SuperCLUE-open与SuperCLUE-opt具有较高的一致性（Pearson/Spearman相关性系数0.78--0.82）
 
 
-### SuperCLUE-open开放域多轮测评基准
+### SuperCLUE-Open开放域多轮测评基准
 
 | 排名 |         Model         | Score  | Win | Loss | Tie | Win_rate(%) | Loss_rate(%) |
 |:---:|:---------------------:|:------:|:---:|:----:|:---:|:-----------:|:------------:|
@@ -82,7 +82,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 注：胜和率，是模型的胜率加上平局率之和，即(win+tie)/(win+tie+loss)*100。
 
-## 使用SuperCLUE-open来评估中文大模型
+## 使用SuperCLUE-Open来评估中文大模型
 
 ### 动机
 当前已经有一些评价中文大模型的基准，如C-Eval, MMCU，但是这些基准可能不太擅长评估大模型的人类偏好。
@@ -90,16 +90,16 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 当前也刚刚出现一些基准，如加州伯克利的MT-bench, 斯坦福大学的Alpaca-Eval，可以用于评估开放域问题，但是这些基准都是英文。
 中文的代表性专有服务和开源模型总体上无法进行有效评估。
 
-为了缓解这个问题，我们发布了SuperCLUE-open与SuperCLUE琅琊榜：
+为了缓解这个问题，我们发布了SuperCLUE-Open与SuperCLUE琅琊榜：
 
-SuperCLUE-open：是一个有挑战的多轮对话测试集，用于评估中文大模型对话式和遵循指令的能力。
+SuperCLUE-Open：是一个有挑战的多轮对话测试集，用于评估中文大模型对话式和遵循指令的能力。
 
-SuperCLUE-lyb: SuperCLUE琅琊榜是一个众包匿名对战平台，用户问自己感兴趣的问题，并且投票他们喜欢的答案。
+SuperCLUE-LYB: SuperCLUE琅琊榜是一个众包匿名对战平台，用户问自己感兴趣的问题，并且投票他们喜欢的答案。
 
 这两个基准设计的首要度量标准是人类的偏好。
 
-### 什么是SuperCLUE-open
-SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮问题。这里面的问题用于评估中文大模型对话能力和遵循指令的能力。
+### 什么是SuperCLUE-Open
+SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮问题。这里面的问题用于评估中文大模型对话能力和遵循指令的能力。
 里面包括一些常用的使用场景和一些挑战性的指令用于区分不同的模型。它考察模型的十大能力，
 包括：语义理解与抽取，闲聊，上下文对话，角色扮演，知识与百科，生成与创作，代码，逻辑与推理，计算，代码和安全。每个子能力六十道题目，每个题目包括两轮问题。
 
@@ -115,7 +115,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 评估的标准，是要求超级模型作为一个公证的评估者，评估模型的质量。回答的质量包括回答有针对性、准确和全面。
 
 ## 结果与分析
-#### SuperCLUE-open，有区别性的中文大模型基准
+#### SuperCLUE-Open，有区别性的中文大模型基准
 我们对14个模型，针对10项能力，进行了全面的评估。我们的基准可以清晰的区分模型在不同能力上的表现。特别是一些国际专有服务gpt-4, gpt-3.5, Claude，
 相比中开源模型ChatGM2-6B, MOSS-16B有明显的效果差异。
 
@@ -139,7 +139,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 模型详情或需求描述中，请注明：“SuperCLUE-Open”
 
 ## 下一步
-1. 添加SuperCLUE-open与人类测评的一致性分析
+1. 在报告SuperCLUE-Open与SuperCLUE-Opt一致性基础上，进一步添加SuperCLUE-Open与人类测评的一致性分析
 2. 扩充测试集规模
 3. 加入更多中文大模型
 
@@ -149,7 +149,7 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 2.文章：<a href='https://lmsys.org/blog/2023-06-22-leaderboard/'>Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B</a>
 
-3.项目地址：<a href='https://github.com/tatsu-lab/alpaca_eval'>Alpaca_Eval: A validated automatic evaluator for instruction-following language models. High-quality, cheap, and fast.</a>
+3.项目地址：<a href='https://github.com/tatsu-lab/alpaca_eval'>Alpaca_Eval: A validated automatic evaluator for instruction-following language models,cheap and fast</a>
 
 4.排行榜 <a href='https://tatsu-lab.github.io/alpaca_eval/'>AlpacaEval Leaderboard</a>
 
@@ -162,6 +162,6 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 
 1. <a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>： 中文通用大模型综合性基准(基础能力、中文特性和专业能力）
 
-2. <a href='www.superclueai.com'>SuperCLUE琅琊榜</a>：中文通用大模型匿名对战评价基准
+2. <a href='https://www.superclueai.com'>SuperCLUE琅琊榜</a>：中文通用大模型匿名对战评价基准
 
 
