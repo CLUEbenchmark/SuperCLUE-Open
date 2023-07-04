@@ -153,10 +153,6 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 
 4.排行榜 <a href='https://tatsu-lab.github.io/alpaca_eval/'>AlpacaEval Leaderboard</a>
 
-## 致谢
-本基准的成功运行离不开FastChat项目在源代码方面的大力支持，在此十分感谢Large Model Systems Organization(<a href=''>LMSYS ORG</a>)和<a href='https://github.com/lm-sys/FastChat'>FastChat</a>
-
-
 
 ## 链接
 
@@ -164,4 +160,28 @@ SuperCLUE-Open是一个多轮开放域中文基准，包括600个高质量多轮
 
 2. <a href='https://www.superclueai.com'>SuperCLUE琅琊榜</a>：中文通用大模型匿名对战评价基准
 
+
+## SuperCLUE-Open讨论与交流
+
+<p float="left">   
+  <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_group.jpg"  width="30%" height="30%"></img>
+  <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/brightmart_s.jpeg"  width="30%" height="30%"></img>
+</p> 
+
+## 致谢
+本基准的成功运行离不开FastChat项目在源代码方面的大力支持，在此十分感谢Large Model Systems Organization(<a href=''>LMSYS ORG</a>)和<a href='https://github.com/lm-sys/FastChat'>FastChat</a>
+
+
+## 引用
+
+如果使用本项目的，请引用本项目。
+
+    @misc{SuperCLUE,
+      author = {Liang Xu and others from SuperCLUE team},
+      title = {SuperCLUE: A Benchmark for Foundation Models in Chinese},
+      year = {2023},
+      publisher = {GitHub},
+      journal = {GitHub repository},
+      howpublished = {\url{https://github.com/CLUEbench/SuperCLUE}},
+    }
 
