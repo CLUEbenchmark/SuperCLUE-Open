@@ -60,7 +60,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 
 以下是根据给定的Excel表格内容生成的Markdown表格（内容句子显示）：
 
-### SuperCLUE-open十大能力表
+### SuperCLUE-Open十大能力表
 
 | 模型 | 胜和率 | 语义理解 | 闲聊 | 上下文对话 | 角色扮演 | 知识与百科 | 生成与创作 | 代码 | 逻辑与推理 | 计算 | 安全 |
 |:----:|:-----:|:-------:|:----:|:--------:|:------:|:--------:|:--------:|:----:|:--------:|:----:|:----:|
@@ -134,6 +134,13 @@ SuperCLUE-open是一个多轮开放域中文基准，包括600个高质量多轮
 ## 下一步
 
 ## 相关工作
+1.论文：<a href='https://arxiv.org/abs/2306.05685'>Judging LLM-as-a-judge with MT-Bench and Chatbot Arena</a>
+
+2.文章：<a href='https://lmsys.org/blog/2023-06-22-leaderboard/'>Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B</a>
+
+3.项目地址：<a href='https://github.com/tatsu-lab/alpaca_eval'>Alpaca_Eval: A validated automatic evaluator for instruction-following language models. High-quality, cheap, and fast.</a>
+
+4.排行榜 <a href='https://tatsu-lab.github.io/alpaca_eval/'>AlpacaEval Leaderboard</a>
 
 ## 链接
 
