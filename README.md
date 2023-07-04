@@ -30,6 +30,7 @@ SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交�
 客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>（基础能力、中文特性和专业能力）；
 众包匿名对战形式基准琅琊榜，<a href='https://www.SuperCLUEAi.com'>SuperCLUE-LYB</a>
 
+### SuperCLUE开放域多轮基准与封闭域基准相关性
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_open_vs_opt.png"  width="65%" height="65%"></img>
 
