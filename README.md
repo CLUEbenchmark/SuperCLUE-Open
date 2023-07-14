@@ -13,21 +13,22 @@ SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观�
 |:---------------:|:--------------:|:--------------:|:-------------:|:------------:|:---------:|
 |     <a href='https://openai.com/'>GPT-4</a>    | OpenAI  |     94.64      |     78.76     |          -      |  专有服务  |
 | <a href='https://www.anthropic.com/'>Claude-instant-v1 </a> |Authropic |    69.51     |     60.38     |          1215     |  专有服务  |
-| <a href='https://openai.com/'>gpt-3.5-turbo</a>   | OpenAI  |     66.67      |     67.98     |          1171     |  专有服务  |
-| <a href='https://api.minimax.chat/'>MiniMax-abab5</a> |MiniMax |     57.94      |     58.19     |           1188     |  专有服务  |
+| <a href='https://openai.com/'>gpt-3.5-turbo</a>   | OpenAI  |     66.67      |     67.98     |          1202     |  专有服务  |
+| <a href='https://api.minimax.chat/'>MiniMax-abab5</a> |MiniMax |     57.94      |     58.19     |           1250     |  专有服务  |
 | <a href='https://yiyan.baidu.com/welcome'>文心一言(v2.0.4)</a> | 百度|     50.48      |     62.85     |             -      |  专有服务  |
 | <a href='https://xinghuo.xfyun.cn/'>讯飞星火(v1.5)</a>   |科大讯飞 |     48.87      |     59.8      |            -      |  专有服务  |
-|  <a href='https://chatglm.cn'>ChatGLM-130B</a>  | 清华&智谱AI|     42.46      |     51.53     |          1163     |  专有服务  |
-|   <a href='https://github.com/THUDM/ChatGLM2-6B'>ChatGLM2-6B</a> | 清华&智谱AI |     36.50      |     48.56     |           -      | 开源-商用申请|
+|  <a href='https://chatglm.cn'>ChatGLM-130B</a>  | 清华&智谱AI|     42.46      |     51.53     |          1180     |  专有服务  |
+|   <a href='https://github.com/THUDM/ChatGLM2-6B'>ChatGLM2-6B</a> | 清华&智谱AI |     36.50      |     48.56     |           1105      | 开源-商用申请|
 |  <a href='https://ai.360.cn'>360智脑(4.0)</a>   |360 |     23.93      |     63.53     |           -      |  专有服务  |
-| <a href='https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1.1'>IDEA-姜子牙-13B</a>|深圳IDEA |     22.04      |     48.67     |           1010     | 开源-非商用|
-|    <a href='https://github.com/OpenLMLab/MOSS'>MOSS-16B</a>   | 复旦 |     21.14      |     38.56     |           1049     | 开源-商用申请|
-| <a href='https://github.com/LianjiaTech/BELLE'>BELLE-13B</a>  | 链家|     15.61      |     50.65     |           958     | 开源-非商用|
-|  <a href='https://huggingface.co/spaces/BlinkDL/RWKV-World-7B'>RWKV-world-7B</a>| RWKV基金会|     24.54      |     24.83     |           811     | 开源-可商用|
-|  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            -      | 开源-商用申请|
-| <a href='https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b'>phoenix-7B</a>|  香港中文大学|     -  | 43.60	| 1100  | 开源-可商用|
-|  <a href='https://github.com/lm-sys/FastChat'>Vicuna-13B</a> |UC伯克利 |     -  |  29.15	| 994	 |  开源-非商用|
- 
+| <a href='https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1.1'>IDEA-姜子牙-13B</a>|深圳IDEA |     22.04      |     48.67     |           1069     | 开源-非商用|
+|    <a href='https://github.com/OpenLMLab/MOSS'>MOSS-16B</a>   | 复旦 |     21.14      |     38.56     |           1058     | 开源-商用申请|
+| <a href='https://github.com/LianjiaTech/BELLE'>BELLE-13B</a>  | 链家|     15.61      |     50.65     |           967     | 开源-非商用|
+|  <a href='https://huggingface.co/spaces/BlinkDL/RWKV-World-7B'>RWKV-world-7B</a>| RWKV基金会|     24.54      |     24.83     |           1034     | 开源-可商用|
+|  <a href='https://github.com/baichuan-inc/baichuan-7B'>baichuan-7B(预训练模型)</a> | 百川智能  |      3.11      |     48.18     |            846      | 开源-商用申请|
+| <a href='https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b'>phoenix-7B</a>|  香港中文大学|     -  | 43.60	| 1087  | 开源-可商用|
+|  <a href='https://github.com/lm-sys/FastChat'>Vicuna-13B</a> |UC伯克利 |     -  |  29.15	| 1001	 |  开源-非商用|
+
+<a href='https://www.superclueai.com/'>LYB匿名对战数据</a>，更新与2023-07-07
  </span>
 SuperCLUE是一个综合性基准，包括三个子基准：开放域多轮交互基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE-open'>SuperCLUE-Open</a>；
 客观题形式的三大能力基准，<a href='https://github.com/CLUEbenchmark/SuperCLUE'>SuperCLUE-Opt</a>（基础能力、中文特性和专业能力）；
