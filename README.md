@@ -6,7 +6,7 @@
 
 ### 更新
 
-[2023-08-04] 添加通义千问开源模型Qwen-7B-Chat
+[2023-08-04]  添加通义千问开源模型Qwen-7B-Chat，代用代码见<a href='./model_card/Qwen-7B-Chat.md'>Model_Card</a>
 
 ## SuperCLUE榜单(Open开放域多轮-Opt封闭域-LYB匿名对战)
 
