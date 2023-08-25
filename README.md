@@ -18,7 +18,7 @@ SuperCLUE基础十大能力结构包含四个能力象限，包括语言理解�
 
 这是一种语言能力，能够理解并解析输入的文字信息的含义。模型需要能够识别短语、句子、段落的含义，同时还要能从更大的文本块中抽取关键信息和主题。
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open_example_1.png"  width="80%" height="80%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open_example_1.png"  width="90%" height="90%"></img>
 
 多轮对话示例
 
