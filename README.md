@@ -1,122 +1,111 @@
 # SuperCLUE-Open
-中文通用大模型开放域多轮测评基准 | A Multi-turn Open Domain Benchmark for Foundation Models in Chinese
+中文通用大模型多轮开放问题测评基准 | A Multi-turn Open Domain Benchmark for Foundation Models in Chinese
+
+#### 面向中文大模型用户使用场景的能力测评与评估
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/socre_10_qianwen.jpg"  width="60%" height="60%"></img>
+
 
 ### 更新
 
 [2023-08-04]  添加通义千问开源模型Qwen-7B-Chat。测评调用代码见<a href='./model_card/Qwen-7B-Chat.md'>Model_Card</a>
 
 
-## 体系与示例
+## 能力评估结构图与示例
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_category.png"  width="60%" height="60%"></img>
 
 SuperCLUE基础十大能力结构包含四个能力象限，包括语言理解与生成、知识理解与应用、专业能力和环境适应与安全性，进而细化为10项基础能力。
 
-### 能力1：语义理解与抽取
+#### 能力1：语义理解与抽取
 
 这是一种语言能力，能够理解并解析输入的文字信息的含义。模型需要能够识别短语、句子、段落的含义，同时还要能从更大的文本块中抽取关键信息和主题。
 
+##### 多轮对话示例
+
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open11.jpg"  width="100%" height="100%"></img>
-
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open_example_1.png"  width="100%" height="100%"></img>
-
-多轮对话示例
-
-
-
-
-图片
 
 注：本示例中可同时评测多轮对话能力
 
-能力2：闲聊
+#### 能力2：闲聊
 
 这是一种语言能力，与用户进行自由形式、非特定目标的对话。模型需要具备生成流畅、自然、符合语言习惯和文化背景的回应。
 
-图片
-示例
+##### 示例
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open22chat.jpeg"  width="100%" height="100%"></img>
 
 
-图片
-
-能力3：上下文对话
+#### 能力3：上下文对话
 
 这是一种语言能力，需要理解并记住前面的对话信息，以便在回答中保持连贯性。这涉及到理解对话的整体流程和上下文环境，或生成相应的对话。
 
-图片
-示例
+##### 示例
 
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open333dialg.jpeg"  width="100%" height="100%"></img>
 
-图片
-
-能力4：生成与创作
+#### 能力4：生成与创作
 
 这是一种语言能力，能够创造新的文本内容，如文章、文案、短故事、诗歌。这涉及到创造性地运用语言，同时还要考虑到风格、语境和目标读者。
 
-图片
-示例
+##### 示例
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open444generate.jpeg"  width="100%" height="100%"></img>
 
 
-图片
-
-能力5：知识与百科
+#### 能力5：知识与百科
 
 这是一种知识能力，能够像百科全书一样提供知识信息。这涉及到理解和回答关于广泛主题的问题，以及提供准确、详细和最新的信息。
-图片
-示例
+
+##### 示例
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open555baike.jpeg"  width="100%" height="100%"></img>
 
 
-图片
-
-能力6：代码
+#### 能力6：代码
 
 这是一种专业能力，能够理解和生成编程代码。这涉及到理解多种编程语言的语法、结构和习惯，以及如何解决编程问题。
-图片
-多轮对话示例
 
+##### 多轮对话示例
 
-图片
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open666code.jpeg"  width="100%" height="100%"></img>
+
 注：本示例中可同时评测多轮对话能力
 
-能力7：逻辑与推理
+#### 能力7：逻辑与推理
 
 这是一种专业能力，能够理解和应用逻辑原则进行推理。这涉及到分析问题、识别问题及推理。
 
-图片
-示例
-图片
+##### 示例
 
-能力8：计算
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open777logic.jpeg"  width="100%" height="100%"></img>
+
+
+####  能力8：计算
 
 这是一种专业能力，使其能够执行数学运算，如加法、减法、乘法和除法，甚至更复杂的数学问题。这涉及到理解数学问题的表述，以及如何步骤地解决这些问题。
 
-图片
-多轮对话示例
+##### 多轮对话示例
 
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open888compute.jpeg"  width="100%" height="100%"></img>
 
-图片
 注：本示例中可同时评测多轮对话能力
 
-能力9：角色扮演
+####  能力9：角色扮演
 
 这是一种感知能力，使其能够在特定的模拟环境或情景中扮演一个角色。这涉及到理解特定角色的行为、说话风格，以及在特定情境下的适当反应。
 
-图片
-示例
+##### 示例
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open999roleplay.jpeg"  width="100%" height="100%"></img>
 
 
-图片
-
-能力10：安全
+####   能力10：安全
 
 这是一种安全能力，防止生成可能引起困扰或伤害的内容。这涉及到识别和避免可能包含敏感或不适当内容的请求，以及遵守用户的隐私和安全政策。
-图片
-示例
 
+##### 示例
 
-图片
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open10safe.jpeg"  width="100%" height="100%"></img>
 
 
 ## SuperCLUE榜单(Open开放域多轮-Opt封闭域-LYB匿名对战)
