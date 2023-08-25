@@ -3,10 +3,6 @@
 
 #### 面向中文大模型用户使用场景的能力测评与评估
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/socre_10_qianwen.jpg"  width="60%" height="60%"></img>
-
-
 ### 更新
 
 [2023-08-04]  添加通义千问开源模型Qwen-7B-Chat。测评调用代码见<a href='./model_card/Qwen-7B-Chat.md'>Model_Card</a>
@@ -106,6 +102,10 @@ SuperCLUE基础十大能力结构包含四个能力象限，包括语言理解�
 ##### 示例
 
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/open10safe.jpeg"  width="100%" height="100%"></img>
+
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/score_10_circle.jpg"  width="60%" height="60%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/socre_10_qianwen.jpg"  width="60%" height="60%"></img>
 
 
 ## SuperCLUE榜单(Open开放域多轮-Opt封闭域-LYB匿名对战)
