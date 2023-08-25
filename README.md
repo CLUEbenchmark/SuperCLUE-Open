@@ -8,6 +8,11 @@
 
 [2023-08-04]  添加通义千问开源模型Qwen-7B-Chat。测评调用代码见<a href='./model_card/Qwen-7B-Chat.md'>Model_Card</a>
 
+
+## 体系与示例
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Open/blob/main/resources/img/superclue_category.png"  width="60%" height="60%"></img>
+
+
 ## SuperCLUE榜单(Open开放域多轮-Opt封闭域-LYB匿名对战)
 
 SuperCLUE-Open：开放域多轮交互；SuperCLUE-Opt：三大能力，客观题；SuperCLUE-LYB：开放域众包匿名对战
